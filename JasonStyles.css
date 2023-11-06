@@ -6,6 +6,10 @@ h1{
   color: #F57F0A;
   text-align: center;
 }
+h1:hover{
+  color: green;
+  text-align: center;
+}
 a {
   text-decoration: none;
   color: #3597B5;
@@ -15,6 +19,7 @@ a {
   margin: 10px;
   padding: 10px;
   display: flex;
+  border-radius: 20px;
 }
 .assign img{
   width: 200px;
