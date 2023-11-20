@@ -1,14 +1,20 @@
 body{
   background-color: #3F6975;
   font-family: roboto;
+  display: flex;
+  flex-wrap: wrap;
 }
 h1{
   color: #F57F0A;
   text-align: center;
+  width: 100%
+  display: block;
 }
 h1:hover{
   color: green;
   text-align: center;
+  width: 100%
+  display: block;
 }
 a {
   text-decoration: none;
@@ -18,8 +24,10 @@ a {
   background-color: lightgray;
   margin: 10px;
   padding: 10px;
-  display: flex;
+  display: block;
   border-radius: 20px;
+  width: 20%
+  box-shadow: 8px 8px green;
 }
 .assign img{
   width: 200px;
